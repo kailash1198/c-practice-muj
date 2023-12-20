@@ -1,7 +1,17 @@
 #include <stdio.h>
+// #include <windows.h>
 
 // #define USER_AGE 18
 // #define USER_NAME "kailash"
+
+// int myFuncOne(){
+//     int a=10, b=20;
+//     return a+b;
+// }
+
+// int myFuncTwo(){
+//     int a=30, b=40;
+// }
 
 int main()
 {
@@ -19,6 +29,26 @@ int main()
     // printf("%d\n", myAge);
     // printf("%d\n\n", USER_AGE);
     // printf("%s\n\n", USER_NAME);
+
+    // printf("%d\n\n", a);
+
+    // int numOne = 10;
+
+    // printf("\a");
+    // fflush(stdout);
+
+    struct studentData
+    {
+        char studentName;
+        char studentAddress[60];
+        // int studentAge;
+    };
+
+    struct studentData stName;
+    stName.studentName = 'K';
+    printf("%c\n\n", stName.studentName);
+
+    stName.studentAddress = {{"Bangalore"}};
 
     return 0;
 }
