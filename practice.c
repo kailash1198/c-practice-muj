@@ -35,5 +35,7 @@ int main() // declare main function
     // printf("\n Signed int memory size in bytes: %d\n", numOne);
     // printf("\n Un Signed int memory size in bytes: %u\n", numTwo);
 
+
+printf("Hello\n");
     return 0;
 }
