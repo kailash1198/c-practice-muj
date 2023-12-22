@@ -65,9 +65,11 @@ int main() // declare main function
     // printf("\n\n %d \n\n", octalNumbers);
     // printf("\n\n %d \n\n", octalNumbersTwo);
 
-    const int hexaNumbers = 0x567;
-    const int hexaNumbersTwo = 0x56457;
-    printf("\n\n %d \n\n", hexaNumbers);
-    printf("\n\n %d \n\n", hexaNumbersTwo);
+    // const int hexaNumbers = 0x567;
+    // const int hexaNumbersTwo = 0x56457;
+    // const int binaryNum = 0b110;
+    // printf("\n\n %d \n\n", hexaNumbers);
+    // printf("\n\n %d \n\n", hexaNumbersTwo);
+    // printf("\n\n %d \n\n", binaryNum);
     return 0;
 }
