@@ -1,4 +1,8 @@
+#include <stdbool.h>
 #include <stdio.h> //library standard i/o
+#include <stdlib.h>
+#include <string.h>
+
 // int addNum(int numOne, int numTwo) // numOne and numTwo are parameters
 // {
 //     int totalNum = numOne + numTwo;
@@ -35,8 +39,7 @@ int main() // declare main function
     //  printf("\n Signed int memory size in bytes: %d\n", numOne);
     //  printf("\n Un Signed int memory size in bytes: %u\n", numTwo);
 
-
-// printf("Hello\n");
+    // printf("Hello\n");
     // short int numOne = 10;
     // int sizeCheck = sizeof numOne;
     // printf("\n\n %d \n\n", sizeCheck);
@@ -73,5 +76,48 @@ int main() // declare main function
     // printf("\n\n %d \n\n", hexaNumbers);
     // printf("\n\n %d \n\n", hexaNumbersTwo);
     // printf("\n\n %d \n\n", binaryNum);
+
+    // printf("\n\n Escape sequence program practice \n\n");
+    // printf("\a");
+    // printf("\b");
+    // printf("\t\t\t\t");
+    // printf("\?\?\?\? okay?");
+    // printf("\r\r\r\r\r");
+
+    // bool - fundamental data types which can have only two values true or either false
+
+    // bool myOpinion = true;
+    // bool yourOpinion = false;
+    // printf("\n %d is called true values\n", myOpinion);
+    // printf("\n %d is called false value\n", yourOpinion);
+
+    // ==================PRACTICE ===============
+    char userPromt[100];
+    char taskWork[20] = "task";
+
+    int taskPageOpen()
+    {
+        printf("\n\n");
+        printf("Welcome to TASK page section\n\n");
+    }
+
+    printf("\n--------------------------------------------\n");
+    printf("\n\nHello Kailash, Welcome to Your world of Learning\n\n");
+    printf("\tTell me today how can i help you ...\n");
+    printf("Just write what you wanr to get from me :\n");
+    scanf("%s", userPromt);
+
+    if (strcmp(userPromt, "task") == 0)
+    {
+        printf("Okay wait....\n\n");
+        system("clear");
+        taskPageOpen();
+    }
+    else
+    {
+        system("clear");
+        printf("\n\n\n................ERROOR.............\n\n");
+    }
+
     return 0;
 }
