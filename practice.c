@@ -92,32 +92,87 @@ int main() // declare main function
     // printf("\n %d is called false value\n", yourOpinion);
 
     // ==================PRACTICE ===============
-    char userPromt[100];
-    char taskWork[20] = "task";
+    // char userPromt[100];
+    // char taskWork[20] = "task";
 
-    int taskPageOpen()
-    {
-        printf("\n\n");
-        printf("Welcome to TASK page section\n\n");
-    }
+    // int taskPageOpen()
+    // {
+    //     printf("\n\n");
+    //     printf("Welcome to TASK page section\n\n");
+    // }
 
-    printf("\n--------------------------------------------\n");
-    printf("\n\nHello Kailash, Welcome to Your world of Learning\n\n");
-    printf("\tTell me today how can i help you ...\n");
-    printf("Just write what you wanr to get from me :\n");
-    scanf("%s", userPromt);
+    // printf("\n--------------------------------------------\n");
+    // printf("\n\nHello Kailash, Welcome to Your world of Learning\n\n");
+    // printf("\tTell me today how can i help you ...\n");
+    // printf("Just write what you wanr to get from me :\n");
+    // scanf("%s", userPromt);
 
-    if (strcmp(userPromt, "task") == 0)
-    {
-        printf("Okay wait....\n\n");
-        system("clear");
-        taskPageOpen();
-    }
-    else
-    {
-        system("clear");
-        printf("\n\n\n................ERROOR.............\n\n");
-    }
+    // if (strcmp(userPromt, "task") == 0)
+    // {
+    //     printf("Okay wait....\n\n");
+    //     system("clear");
+    //     taskPageOpen();
+    // }
+    // else
+    // {
+    //     system("clear");
+    //     printf("\n\n\n................ERROOR.............\n\n");
+    // }
 
+    // =============== 24-12-2023 ===================
+    // short int numOne = 10;
+    // short int numTwo = 20;
+    // int ManipulateNum = (numOne + numTwo) / 2 + (numOne / 2);
+    // printf("\n The result is manipulate number is that given : %d\n\n", ManipulateNum);
+
+    // int substractionNum = numTwo - numOne;
+    // printf("\n %d \n\n", substractionNum);
+
+    // int numThree = 20, numFourth = 40, randomVar;
+    // numThree += numFourth;
+    // int randomVar +=numThree; //error because declare and addition cannot done in same time and same line
+    // printf("\n Assignment result value is %d \n\n", numThree);
+
+    // int numOne = 1, numTwo = 2, numThree = 3, numResult;
+    // if (numOne && numTwo >= 0)
+    // {
+    //     printf("\n\nWait .......\n\n");
+    //     system("clear");
+    //     if (strcmp(system("clear"), "clear") == 0)
+    //     {
+    //         printf("\n\n Right \n\n");
+    //     }
+    // }
+
+    // void screenWatch(int a, int b)
+    // {
+    //     if (a == 0)
+    //     {
+    //         system("clear");
+    //     }
+    //     else
+    //     {
+    //         system("")
+    //     }
+    // }
+
+    // int screenStatus = system("clear");
+    
+    // printf("\n\nTest text\n\n");
+    // int screenStatus = system("cls");
+    // if (screenStatus == 0)
+    // {
+    //     printf("\nNow screen is clear\n");
+    // }
+    // else
+    // {
+    //     printf("\nScreen is not clear\n");
+    // }
+
+    char userNameOne[20][5];
+    system("clear");
+    printf("\nPlease Enter User Name: ");
+    scanf("%s", userNameOne[0]);
+    printf("\nfirst entry userName is : %s\n", userNameOne[0]);
     return 0;
 }
