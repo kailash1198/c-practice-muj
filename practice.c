@@ -157,7 +157,7 @@ int main() // declare main function
     // }
 
     // int screenStatus = system("clear");
-    
+
     // printf("\n\nTest text\n\n");
     // int screenStatus = system("cls");
     // if (screenStatus == 0)
@@ -169,10 +169,37 @@ int main() // declare main function
     //     printf("\nScreen is not clear\n");
     // }
 
-    char userNameOne[20][5];
-    system("clear");
-    printf("\nPlease Enter User Name: ");
-    scanf("%s", userNameOne[0]);
-    printf("\nfirst entry userName is : %s\n", userNameOne[0]);
+    // char userNameOne[20][5];
+    // system("clear");
+    // printf("\nPlease Enter User Name: ");
+    // scanf("%s", userNameOne[0]);
+    // printf("\nfirst entry userName is : %s\n", userNameOne[0]);
+
+    // char a=110, b=20, c;
+    // c = (a*b)/2;
+    // printf("\n\n %d \n\n", c);
+
+    // char numOne=100, numTwo = 10, numThree;
+    // numThree = numOne-numTwo;
+    // printf("\n %c\n", numThree);
+
+    // int numOne = 10000;
+    // char(numOne);
+    // printf("\n %d \n", numOne);
+
+    // int numOne = 100;
+    // char firstLetter = 'A'; //ascii value of A = 65;
+
+    // numOne = numOne + firstLetter;
+    // float numTwo = numOne + 1.5;
+    // printf("\n numOne = %d \n", numOne);
+    // printf("\nNumtwo = %f\n", numTwo);
+
+    // int numOne = 65;
+    // char myLetter = (char)numOne;
+    // float myValue = (float)myLetter;
+    // printf("\n %c \n", myLetter);
+    // printf("\n %f \n", myValue);
+
     return 0;
 }
