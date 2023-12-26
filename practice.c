@@ -221,5 +221,14 @@ int main() // declare main function
 
     // int numOne = 10, numTwo = 20, numThree = 30;
     // printf("\nThe numOne value is %d and numTwo value is %d and also numThree value is %d.\n", numOne, numTwo, numThree);
+
+    // int totalStock = 1000;
+    // int alertStock = 100;
+
+    // if(totalStock==alertStock){
+    //     printf("\nWait... Your stock is Low\n");
+    // }else{
+    //     printf("\nYou can sell more because your stock are stil there\n");
+    // }
     return 0;
 }
