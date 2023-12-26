@@ -201,5 +201,25 @@ int main() // declare main function
     // printf("\n %c \n", myLetter);
     // printf("\n %f \n", myValue);
 
+    // int numOne = 10;
+    // int numTwo;
+    // printf("\n Numone is output at : %d\n", numOne);
+    // printf("\nPlease enter your input value which you want to store in numTwo variable\n");
+    // scanf("%d", &numTwo);
+    // printf("\nYour input is : %d\n", numTwo);
+
+    // char studentName[100] = "Kailash";
+    // char studentAddress[100][2];
+    // puts(studentName);
+    // puts("Please enter your addrees: ");
+    // gets(studentAddress);
+
+    // char userInput;
+    // printf("Please enter first letter of alphabet:\n");
+    // userInput = getchar();
+    // putchar(userInput);
+
+    // int numOne = 10, numTwo = 20, numThree = 30;
+    // printf("\nThe numOne value is %d and numTwo value is %d and also numThree value is %d.\n", numOne, numTwo, numThree);
     return 0;
 }
