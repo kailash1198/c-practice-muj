@@ -2,6 +2,7 @@
 #include <stdio.h> //library standard i/o
 #include <stdlib.h>
 #include <string.h>
+#include <sys/utsname.h>
 
 // int addNum(int numOne, int numTwo) // numOne and numTwo are parameters
 // {
@@ -230,5 +231,40 @@ int main() // declare main function
     // }else{
     //     printf("\nYou can sell more because your stock are stil there\n");
     // }
+    // int myNum=6;
+    // switch (myNum)
+    // {
+    // case 1 ... 6/* constant-expression */:
+    //     /* code */
+    //     printf("\nThe range is 1-6\n");
+    //     break;
+
+    // default:
+    //     break;
+    // }
+
+    // int numSet[] = {0, 1, 2, 3};
+    // for (int i = 0; i <= 3; i++)
+    // {
+    //     switch (numSet[i])
+    //     {
+    //     case 1 ... 6 /* constant-expression */:
+    //         /* code */
+    //         printf("\nThe range is= %d = 1-6\n", numSet[i]);
+    //         break;
+    //     case 7 ... 12:
+    //         printf("\nThe range is= %d = 7-12\n", numSet[i]);
+    //     default:
+    //         printf("\nPlease enter valid input\n");
+    //         break;
+    //
+// === system info using system functioin in c ======
+    // struct utsname info;
+    // uname(&info);
+    // printf("System name:  %s\n", info.sysname);
+    // printf("Release:      %s\n", info.release);
+    // printf("Version:      %s\n", info.version);
+    // printf("Machine:      %s\n", info.machine);
+
     return 0;
 }
