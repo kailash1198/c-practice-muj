@@ -3,8 +3,20 @@
 #include <stdlib.h>
 #include <string.h>
 #include <sys/utsname.h>
+#include <utime.h>
 
 // ----- function -------
+
+// void myFunc(int a)
+// {
+//     for (int i = 0; i <= 100; i++)
+//     {
+//         if (a == i)
+//         {
+//             printf("\n A is equal to %d\n", a);
+//         }
+//     }
+// }
 // int optionSelectUser;
 // void userDashboardFunc()
 // {
@@ -328,6 +340,12 @@ int main() // declare main function
     //     system("clear");
     //     readBook();
     // }
+
+    // int userInput;
+    // printf("\nPlease enter number: ");
+    // scanf("%d", &userInput);
+    // myFunc(userInput);
+
 
     return 0;
 }
