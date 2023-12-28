@@ -4,6 +4,18 @@
 #include <string.h>
 #include <sys/utsname.h>
 
+// ----- function -------
+    int myFunctionOne(int a)
+    {
+        if (a <= 10 && a != 0)
+        {
+            printf("\nA is grether than 0 and less then 11\n");
+        }
+        else
+        {
+            printf("\nPlease enter a valid number\n");
+        }
+    };
 // int addNum(int numOne, int numTwo) // numOne and numTwo are parameters
 // {
 //     int totalNum = numOne + numTwo;
@@ -258,7 +270,7 @@ int main() // declare main function
     //         printf("\nPlease enter valid input\n");
     //         break;
     //
-// === system info using system functioin in c ======
+    // === system info using system functioin in c ======
     // struct utsname info;
     // uname(&info);
     // printf("System name:  %s\n", info.sysname);
@@ -266,5 +278,9 @@ int main() // declare main function
     // printf("Version:      %s\n", info.version);
     // printf("Machine:      %s\n", info.machine);
 
+
+// ====== function ==========
+    myFunctionOne(9);
+    myFunctionOne(11);
     return 0;
 }
