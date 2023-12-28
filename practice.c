@@ -5,17 +5,36 @@
 #include <sys/utsname.h>
 
 // ----- function -------
-    int myFunctionOne(int a)
-    {
-        if (a <= 10 && a != 0)
-        {
-            printf("\nA is grether than 0 and less then 11\n");
-        }
-        else
-        {
-            printf("\nPlease enter a valid number\n");
-        }
-    };
+// int optionSelectUser;
+// void userDashboardFunc()
+// {
+//     printf("\n\n");
+//     printf("\tWELCOME TO ARYAN BOOKS LIBRARY\n");
+//     printf("\t-----------------------------------");
+//     printf("\n\n");
+//     printf("1. Read Book - Get Books\n2. Books List\n3. Request a new Book\n4. Return Book\n");
+//     printf("\n");
+//     printf("\nPlease enter your option in number:");
+//     scanf("%d", &optionSelectUser);
+// }
+
+// void readBook()
+// {
+//     printf("\n\n");
+
+// }
+
+// int myFunctionOne(int a)
+// {
+//     if (a <= 10 && a != 0)
+//     {
+//         printf("\nA is grether than 0 and less then 11\n");
+//     }
+//     else
+//     {
+//         printf("\nPlease enter a valid number\n");
+//     }
+// };
 // int addNum(int numOne, int numTwo) // numOne and numTwo are parameters
 // {
 //     int totalNum = numOne + numTwo;
@@ -278,9 +297,37 @@ int main() // declare main function
     // printf("Version:      %s\n", info.version);
     // printf("Machine:      %s\n", info.machine);
 
+    // ====== function ==========
+    // myFunctionOne(9);
+    // myFunctionOne(11);
 
-// ====== function ==========
-    myFunctionOne(9);
-    myFunctionOne(11);
+    // char userName[50];
+    // char userPassword[20];
+
+    // printf("\n\n");
+    // printf("Aryan Books Library, Barahi\n");
+    // printf("------------------------------\n");
+    // printf("\n");
+    // printf("Log In for Access Libray:\n");
+    // printf("\n\n");
+    // printf("User Name: ");
+    // scanf("%s", userName);
+    // printf("User Password: ");
+    // scanf("%s", userPassword);
+    // if (strcmp(userName, "kailash") == 0)
+    // {
+    //     if (strcmp(userPassword, "12345678") == 0)
+    //     {
+    //         system("clear");
+    //     }
+    // }
+
+    // userDashboardFunc();
+    // if (optionSelectUser == 1)
+    // {
+    //     system("clear");
+    //     readBook();
+    // }
+
     return 0;
 }
