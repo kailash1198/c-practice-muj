@@ -84,6 +84,13 @@ int main()
 // printf("\n");
 // printf("%d\n", *pointerOne);
 
+// int numOne=100, numTwo=200;
+// int *addingNumPointer = &numOne;
+// int *addingNumPointerTwo = &numTwo;
+
+// printf("\n%d\n", *addingNumPointer + *addingNumPointerTwo);
+
+
 
     return 0;
 }
