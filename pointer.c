@@ -39,10 +39,50 @@ int main()
     // printf("The myArray[2] is : %d\n", *arrayPointerOne);
 
     // for(int i=0; i<5; i++){
-    //     int *arrayPointerOne = &myArray[i]; 
+    //     int *arrayPointerOne = &myArray[i];
     //     printf("The myArray[0] is : %d\n", *arrayPointerOne);
     // }
 
+    // =============== VOID POINTER ==========
+    // int numOne = 100;
+    // float numTwo = 2.3;
+    // void *pointerOne;
+
+    // pointerOne = &numOne;
+    // printf("\n");
+    // printf("%d\n", *(int*)pointerOne);
+
+    // ============ FUNCTION POINTERS=======
+    // int myFunc(int a, int b)
+    // {
+    //     return a + b;
+    // }
+
+    // int (*ptrFunction)(int, int) = &myFunc;
+    // printf("%d\n", ptrFunction(2, 300));
+
+// int functionOne(int numOne, int numTwo){
+//     return (numOne+numTwo)/2;
+// }
+
+// int (*pointerFunction)(int, int) = &functionOne;
+// printf("\n%d\n", pointerFunction(100, 200));
+
+
+// int x=1;
+// int y=2;
+// int z[10];
+
+// int *ip = &x;
+// y=*ip;
+// *ip=0;
+// ip=&z[0];
+
+// int numOne=100;
+// int *pointerOne = &numOne;
+// *pointerOne = *pointerOne+300;
+// printf("\n");
+// printf("%d\n", *pointerOne);
 
 
     return 0;
