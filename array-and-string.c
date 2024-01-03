@@ -12,6 +12,15 @@
 //     printf("\n%d\n", age1);
 //     printf("\n%d\n", age2);
 // }
+
+// int arrayFunction(int n)
+// {
+//     char myArray[n];
+//     printf("\nPlease enter your values: ");
+//     scanf("%s\n", myArray);
+//     printf("%s\n", myArray);
+// }
+
 int main()
 {
     // int arrayOne[2]={10,11};
@@ -96,5 +105,19 @@ int main()
     // arrayFunction(10);
     // int ageUser[2] = {20, 25};
     // myArrayFunction(ageUser[0], ageUser[1]);
+
+    // char userName[7] = "kailash";
+    // printf("\n%s\n", userName);
+    // printf("\n%c\n", userName[0]);
+
+    // for(int i=0; i<7; i++){
+    //     printf("\n%c\n", userName[i]);
+    // }
+
+    // char studentName[20] = "Kailash Kumar";
+
+    // arrayFunction(40);
+
+
     return 0;
 }
