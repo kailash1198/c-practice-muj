@@ -15,9 +15,56 @@
 //     return numOne;
 // }
 
+// === nested function =====
+
+// void outsideFunction()
+// {
+//     printf("\nTest done\n");
+//     void insideFunction()
+//     {
+//         printf("\nTest done-2\n");
+//     }
+//     insideFunction();
+// }
+
+// int sumFunction(int a, int b)
+// {
+//     int totalNumber = a + b;
+//     int printFunction()
+//     {
+//         printf("\nThe total number is: %d\n", totalNumber);
+//     }
+//     printFunction();
+// }
+
+// ====== CALL BACK FUNCTION =====
+
+// void callBackFunction(){
+//     printf("\nThis is call back function\n");
+//     callBackFunction();
+// }
+
+// void funcOne(){
+//     printf("\nThis is numone function");
+// }
+
+// void funcTwo(){
+//     printf("\nThis is numtwo function");
+// }
+
+// void callBackFunc(void (*pointerFunc)()){
+//    (*pointerFunc)();
+// }
+
 // ==== main function ======
 int main()
 {
+    // callBackFunc(&funcTwo);
+    // callBackFunc(&funcOne);
+
+    // outsideFunction();
+    // sumFunction(100, 200);
+
     // char userParagraph[300];
     // char userWord[20];
     // printf("\n\nPlease enter your Paragraph: \n");
@@ -40,10 +87,20 @@ int main()
     // {
     // }
 
+    // char userLine[100];
+    // printf("\nPlease enter 2 line: ");
+    // fgets(userLine, 100, stdin);
 
-    char userLine[100];
-    printf("\nPlease enter 2 line: ");
-    fgets(userLine, 100, stdin);
+    // int numberSum(int numOne, int numTwo)
+    // {
+    //     int sumNum = numOne + numTwo;
+    //     printf("\n%d\n", sumNum);
+    // }
+
+    // numberSum(100, 150);
+
+    // ====== CALL BACK FUNCTION =====
+    // callBackFunction();
 
     return 0;
 }
