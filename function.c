@@ -56,9 +56,25 @@
 //    (*pointerFunc)();
 // }
 
+// void funcOne(){
+//     printf("\nThis is func one\n");
+// }
+
+// void funcTwo(){
+//     printf("\nThis is func Two");
+// }
+
+// void myFunc(void (*pointerOne)()){
+//     (*pointerOne)();
+// }
+
+
+
 // ==== main function ======
 int main()
 {
+
+    // myFunc(&funcTwo);
     // callBackFunc(&funcTwo);
     // callBackFunc(&funcOne);
 
