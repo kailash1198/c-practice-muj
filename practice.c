@@ -346,6 +346,68 @@ int main() // declare main function
     // scanf("%d", &userInput);
     // myFunc(userInput);
 
+    // ======= PRACTICE ============
+    // char myWord[10] = "Hello";
+    // char *reverseWord = strrev(myWord);
+    // printf("%s\n", reverseWord);
+    // int stringLength = strlen(myWord);
+    // if(int i=stringLength-1; i<stringLength; i--){
+    //     printf("%c", myWord[i]);
+    // }
+
+    // char mystrg[60];
+    // int leng, g;
+
+    // scanf("%s", mystrg);
+    // leng = strlen(mystrg);
+
+    // for (g = leng - 1; g >= 0; g--)
+    // {
+
+    //     printf("%c", mystrg[g]);
+    // }
+
+    // char myName[10] = "Kailash";
+    // int length, i;
+
+    // length = strlen(myName);
+    // for(i=length; i>=0; i--){
+    //     printf("%c", myName[i]);
+    // }
+
+    // char userName[20] = "aryan singh";
+    // int wordLength = strlen(userName);
+
+    // for(int count = wordLength-1; count>=0; count--){
+    //     printf("%c", userName[count]);
+    // }
+
+    // char sentenceString[20] = "My name is kailash";
+    // char word[10] = "kailash";
+    // char *searchString = strstr(sentenceString, word);
+    // printf("\n%s\n", searchString);
+
+    // char userName[20];
+    // char userPassword[20];
+    // printf("\n");
+    // printf("Log In Page\n");
+    // printf("Please enter username: ");
+    // fgets(userName, 20, stdin);
+    // printf("Please enter password: ");
+    // fgets(userPassword, 20, stdin);
+
+    // char mainUserName[20]="kailash1198";
+    // char mainUserPassword[20]="kailash123";
+
+    // char *matchUsername = strstr(userName, mainUserName);
+    // char *matchPassword = strstr(userPassword, mainUserPassword);
+
+    // if(matchUsername!=NULL){
+    //     if(matchPassword!=NULL){
+    //         system("clear");
+    //         printf("Now you are logged in");
+    //     }
+    // }
 
     return 0;
 }
