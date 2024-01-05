@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 // ===== function ====
 // int wordChecker(char userWord[29]){
@@ -127,6 +128,9 @@
 // ==== main function ======
 int main()
 {
+
+    int squareRoot = sqrt(400);
+    printf("\nThe sqare root of : %d\n", squareRoot);
 
     // printf("\n%d\n", substractFunc(2, 10, 20));
     // printf("\n%d\n", sumNum(3,100,10, 100));
