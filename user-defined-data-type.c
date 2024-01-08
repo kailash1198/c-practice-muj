@@ -75,6 +75,43 @@ int main()
     // }else{
     //     printf("Erro");
     // }
-    
+
+    // typedef char text;
+    // text userName[20] = "Kailash";
+    // printf("%s\n", userName);
+
+    // struct userData
+    // {
+    //     char userName[50];
+    //     char userPassword[20];
+    //     char userCode[10];
+    //     int userAge;
+    //     int userPinCode;
+    // };
+
+    // struct userData userDetails;
+    // strcpy(userDetails.userName, "kailash1198");
+    // strcpy(userDetails.userPassword, "kailashK8@");
+    // strcpy(userDetails.userCode, "123kailash");
+    // userDetails.userAge = 25;
+    // userDetails.userPinCode = 848207;
+
+    // printf("\n");
+    // printf("User Name : %s\n", userDetails.userName);
+
+    // union companyData
+    // {
+    //     /* data */
+    //     char companyName[50];
+    //     int companyYear;
+    //     char companyLocation[100];
+
+    // };
+
+    // union companyData details;
+    // strcpy(details.companyName, "abc limited");
+    // // details.companyName[50] = "promac";
+    // printf("\n%s\n", details.companyName);
+
     return 0;
 }
