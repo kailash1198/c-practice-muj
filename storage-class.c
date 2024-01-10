@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+#include "practice.c";//link othe c file for access exter storage class variables
 
 int numOne;
+extern int numValue;
 
 int main()
 {
@@ -26,5 +28,14 @@ int main()
 
     // extern int numOne;
     // printf("\n%d\n", numOne);
+
+    // static int numOne = 10;
+    // printf("\n%d\n", sizeof(numOne));
+
+    auto char myOption = 'a'; // all local variale are auto storage types and scope only within inside function so you cannot access outside of function
+
+    register char myStr[10] = "Kailash";
+    // extern int numThree = 100; //error
+    
     return 0;
 }
