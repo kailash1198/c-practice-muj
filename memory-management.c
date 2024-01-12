@@ -48,18 +48,63 @@ int main()
     // strncat(secondName, "This is extra text after realloc call", 30);
     // printf("\nFirst Name: %s\nSecond Name: %s\n", firstName, secondName);
 
-    int numOne = 10;
-    int *numGroup;
-    numGroup = (int *)calloc(5, sizeof(int));
-    numGroup[0] = 20;
-    numGroup[1] = 40;
-    numGroup[2] = 50;
-    numGroup[3] = 60;
-    numGroup[4] = 60;
-    numGroup[5] = 60;
-    // numGroup = (void *)realloc(20, sizeof(int));
-    int *newNumGroup = (int *)realloc(numGroup, 20 * sizeof(int));
-    free(numGroup);
-    printf("\n%d\n", newNumGroup[0]);
+    // int numOne = 10;
+    // int *numGroup;
+    // numGroup = (int *)calloc(5, sizeof(int));
+    // numGroup[0] = 20;
+    // numGroup[1] = 40;
+    // numGroup[2] = 50;
+    // numGroup[3] = 60;
+    // numGroup[4] = 60;
+    // numGroup[5] = 60;
+    // // numGroup = (void *)realloc(20, sizeof(int));
+    // int *newNumGroup = (int *)realloc(numGroup, 20 * sizeof(int));
+    // free(numGroup);
+    // printf("\n%d\n", newNumGroup[0]);
+
+    // ==============memory management again learning and practice ===========
+
+    // static memory allocation
+    // int numOne=10;//allocate memory by compiler when we compile the code this static memory are allocate memory in fixed size
+
+    // dynamic memory allocation
+    // calloc()
+    // malloc()
+    // realloc()
+    // free()
+
+    // ===calloc ====
+    // int *memoryAddress;
+    // memoryAddress = (int *)calloc(5, sizeof(int));
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     memoryAddress[i] = (0 + i) * 2;
+    //     printf("%d\n", memoryAddress[i]);
+
+    // }
+    // free(memoryAddress);
+    // printf("Size of the allocated memory: %ld\n", sizeof(memoryAddress)); // this return only pointer size not return the size of dynamic allocated memory.
+
+    // access undefined because memory is fridge in previously so avoid this below for again access. if you want accesss and you need more memory then please use realloc() function.
+    //  for (int i = 0; i < 5; i++)
+    //  {
+    //      memoryAddress[i] = (0 + i) * 2;
+    //      printf("%d\n", memoryAddress[i]);
+    //  }
+
+    // ===mallloc ====
+    // int *pointerOne;
+    // pointerOne = (int *)malloc(5 * sizeof(int));
+    // if (pointerOne == NULL)
+    // {
+    //     fprintf(stderr, "Error\n");
+    // }
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     pointerOne[i] = i * 2;
+    //     printf("%d\n", pointerOne[i]);
+    // }
+    // free(pointerOne);
     return 0;
 }
