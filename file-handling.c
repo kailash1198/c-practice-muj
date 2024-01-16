@@ -19,12 +19,14 @@ int main()
     printf("1. Write simple intro text\n2. Enter BioData\n3. Enter your story\n\n");
     printf("Tell me what you want to write: ");
     scanf("%d", &option);
+    // fflush(stdin);
     if (option == 1)
     {
         char inputText[100];
         FILE *introAddress;
         introAddress = fopen("intro.txt", "r");
         fgets(userIntro, 100, introAddress);
+        // fflush(stdin);
         system("clear");
         printf("%s\n", userIntro);
         fclose(introAddress);
