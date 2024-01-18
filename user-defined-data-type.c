@@ -113,5 +113,32 @@ int main()
     // // details.companyName[50] = "promac";
     // printf("\n%s\n", details.companyName);
 
+    // ============= PRACTICE DAY-2 ===============
+  
+    // int arrayOneInt[] = {2, 4, 5, 6, 4, 23, 43, 23, 23};
+    // char arrayTwoChar[3] = {'a', 'b', 'c'};
+    // float arrayThreeFloat[4] = {1.2, 12.33, 12.34, 1.30};
+    // double arrayFourDouble[3] = {1.3322342, 3.227333, 22.2833};
+
+    // size_t arrayOneSize = sizeof(arrayOneInt) / sizeof(arrayOneInt[0]);
+    // printf("Array one size is = %ld\n", arrayOneSize);
+
+    // for (int i = 0; i < arrayOneSize; i++)
+    // {
+    //     printf("\n%d\n", arrayOneInt[i]);
+    // }
+
+    char firstName[10] = "Kailash";
+    char secondName[10] = "Kumar";
+    // strcat(firstName, secondName);
+    // printf("%s\n", firstName);
+    // printf("%s\n", strcat(firstName, secondName));
+    int result = strcoll(firstName, secondName);
+    if(result<0){
+        printf("Fisrt name and second name not same\n");
+    }else{
+        printf("Error found\n");
+    }
+
     return 0;
 }
