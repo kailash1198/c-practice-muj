@@ -106,5 +106,48 @@ int main()
     //     printf("%d\n", pointerOne[i]);
     // }
     // free(pointerOne);
+
+    // ==============memory management again learning DAY-3 ===========
+    // int *myArray;
+    // myArray = malloc(20 * sizeof(int));
+    // // size_t arraySize = sizeof(myArray)/sizeof(myArray[0]);//error
+    // for(int i=0; i<20; i++ ){
+    //     myArray[i] = i+2;
+    //     printf("%d\n", myArray[i]);
+    // }
+
+    // int *myArray;
+    // myArray = (int*) calloc(5, sizeof(int));
+    // for(int i=0; i<5; i++){
+    //     myArray[i] = i*10;
+    //     printf("%d\n", myArray[i]);
+    // }
+    
+    // realloc(myArray, 10*sizeof(int));
+    // free(myArray);
+
+    // int *arrayOne;
+    // arrayOne = (int*) malloc(5*sizeof(int));
+    // if(arrayOne!=NULL){
+    //     for(int i=0; i<5; i++){
+    //         arrayOne[i] = i*2;
+    //         printf("Values = %d\n", arrayOne[i]);
+    //     }
+    // }else{
+    //     printf("Memory not allocated\n");
+    // }
+    // free(arrayOne);
+
+
+    // int *arrayTwo;
+    // // arrayTwo = (int*) calloc(5, sizeof(int));
+    // if(arrayTwo!=NULL){
+    //     for(int i=0; i<5; i++){
+    //         arrayTwo[i] = i*2;
+    //         printf("Value = %d\n", arrayTwo[i]);
+    //     }
+    // }else{
+    //     printf("\nMemory not allocated\n");
+    // }
     return 0;
 }
