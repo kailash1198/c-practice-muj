@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main()
 {
@@ -61,36 +63,59 @@ int main()
     // int (*ptrFunction)(int, int) = &myFunc;
     // printf("%d\n", ptrFunction(2, 300));
 
-// int functionOne(int numOne, int numTwo){
-//     return (numOne+numTwo)/2;
-// }
+    // int functionOne(int numOne, int numTwo){
+    //     return (numOne+numTwo)/2;
+    // }
 
-// int (*pointerFunction)(int, int) = &functionOne;
-// printf("\n%d\n", pointerFunction(100, 200));
+    // int (*pointerFunction)(int, int) = &functionOne;
+    // printf("\n%d\n", pointerFunction(100, 200));
 
+    // int x=1;
+    // int y=2;
+    // int z[10];
 
-// int x=1;
-// int y=2;
-// int z[10];
+    // int *ip = &x;
+    // y=*ip;
+    // *ip=0;
+    // ip=&z[0];
 
-// int *ip = &x;
-// y=*ip;
-// *ip=0;
-// ip=&z[0];
+    // int numOne=100;
+    // int *pointerOne = &numOne;
+    // *pointerOne = *pointerOne+300;
+    // printf("\n");
+    // printf("%d\n", *pointerOne);
 
-// int numOne=100;
-// int *pointerOne = &numOne;
-// *pointerOne = *pointerOne+300;
-// printf("\n");
-// printf("%d\n", *pointerOne);
+    // int numOne=100, numTwo=200;
+    // int *addingNumPointer = &numOne;
+    // int *addingNumPointerTwo = &numTwo;
 
-// int numOne=100, numTwo=200;
-// int *addingNumPointer = &numOne;
-// int *addingNumPointerTwo = &numTwo;
+    // printf("\n%d\n", *addingNumPointer + *addingNumPointerTwo);
 
-// printf("\n%d\n", *addingNumPointer + *addingNumPointerTwo);
+    // =================PRACTICE DAY-2==============
+    // int myVar = 100;
+    // int *myPointer = &myVar;
+    // printf("%d\n", *myPointer);
 
+    // int codeList[5] = {1, 2, 3, 4, 5};
+    // int *listPointers = &codeList;
+    // printf("%d\n", *listPointers);
+    // for(int i=0; i<5; i++){
+    //     printf("%d\n", listPointers[i]);
+    // }
 
+    // int myArray[3] = {100, 260, 40};
+    // // int *arrayPointers[3] = {&myArray[0], &myArray[1], &myArray[2]};
+    // int *arrayPointers[3];
+    // for (int j = 0; j < 3; j++)
+    // {
+
+    //     arrayPointers[j] = &myArray[j];
+    // }
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     printf("%d\n", *arrayPointers[i]);
+    // }
 
     return 0;
 }
