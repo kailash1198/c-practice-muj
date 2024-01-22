@@ -74,5 +74,57 @@ int main()
 
     // fprintf(fileLocation, userText);
     // fclose(fileLocation);
+
+    // ============= PRACTICE AGAIN DAY-3 ============
+
+    FILE *filePointer;
+    // filePointer = fopen("file.txt", "w");
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     fprintf(filePointer, "My name is Kailash Kumar\n");
+    // }
+    // fclose(filePointer);
+
+    // int numList[5];
+    // filePointer = fopen("file.txt", "r+");
+    // printf("\n\nAddition of integer from file.txt\n\n");
+
+    // fscanf(filePointer, numList);
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("Number is = %d\n", numList[i]);
+    // }
+
+    // int numList[5];
+    // filePointer = fopen("file.txt", "r");
+    // while (fscanf(filePointer, "%d", &numList) == 1)
+    // {
+    //     printf("%d\n", numList[0]);
+    // }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     fscanf(filePointer, "%d", &numList[i]);
+    // }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("%d\n", numList[i]);
+    // }
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     fscanf(filePointer, "%d", &numList[i]);
+    // }
+    // printf("%d\n", numList[4]);
+    // int numOne = numList[0], numTwo = numList[1];
+    // int sum = numOne + numTwo;
+    // printf("The sum is : %d\n", sum);
+    // fclose(filePointer);
+
+    // filePointer = fopen("file.txt", "r");
+    // char fileString[10];
+    // // char buffer[MAX_LINE_LENGTH];
+    // fgets(fileString, 10, filePointer);
+    // printf("%s\n", fileString);
     return 0;
 }
