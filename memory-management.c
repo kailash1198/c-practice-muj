@@ -122,7 +122,7 @@ int main()
     //     myArray[i] = i*10;
     //     printf("%d\n", myArray[i]);
     // }
-    
+
     // realloc(myArray, 10*sizeof(int));
     // free(myArray);
 
@@ -138,7 +138,6 @@ int main()
     // }
     // free(arrayOne);
 
-
     // int *arrayTwo;
     // // arrayTwo = (int*) calloc(5, sizeof(int));
     // if(arrayTwo!=NULL){
@@ -149,5 +148,98 @@ int main()
     // }else{
     //     printf("\nMemory not allocated\n");
     // }
-    return 0;
+    // ==============memory management again learning DAY-4 ===========
+
+    // int numOne = 10;
+    // int arrayOne[5] = {1, 2, 3, 4, 5};
+    // int size;
+
+    // int *pointerOne;
+    // printf("Please enter size you need: ");
+    // scanf("%d", &size);
+    // pointerOne = (int *)malloc(size * sizeof(int));
+    // if (pointerOne == NULL)
+    // {
+    //     printf("Memory are not allocated\n");
+    //     exit(0);
+    // }
+    // else
+    // {
+    //     printf("Memory are allocated sucessfully\n");
+    // }
+
+    //     int n, i, *ptr, sum = 0;
+
+    //   printf("Enter number of elements: ");
+    //   scanf("%d", &n);
+
+    //   ptr = (int*) malloc(n * sizeof(int));
+
+    //   // if memory cannot be allocated
+    //   if(ptr == NULL) {
+    //     printf("Error! memory not allocated.");
+    //     exit(0);
+    //   }
+
+    //   printf("Enter elements: ");
+    //   for(i = 0; i < n; ++i) {
+    //     scanf("%d", ptr + i);
+    //     sum += *(ptr + i);
+    //   }
+
+    //   printf("Sum = %d", sum);
+
+    //   // deallocating the memory
+    //   free(ptr);
+    //     return 0;
+    int num, newSize;
+    int *pointerOne;
+    printf("Please enter number you want add: ");
+    scanf("%d", &num);
+    // ===malloc===
+    // pointerOne = (int *)malloc(num * sizeof(int));
+    // printf("Please enter element: ");
+    // for (int i = 0; i < num; ++i)
+    // {
+    //     scanf("%d", pointerOne + i);
+    // }
+
+    // for (int i = 0; i < num; i++)
+    // {
+    //     printf("%d\n", *(pointerOne + i));
+    // }
+    // free(pointerOne);
+    // ==calloc===
+    // pointerOne = (int*)calloc(num, sizeof(int));
+    // for(int i=0; i<num; i++){
+    //     scanf("%d", &pointerOne[i]);
+    // }
+    // for(int i=0; i<num; i++){
+    //     printf("%d\n", pointerOne[i]);
+    // }
+    // free(pointerOne);
+
+    // ==realooc==
+    // pointerOne = (int *)calloc(num, sizeof(int));
+    // printf("Please enter element one by one: ");
+    // for (int i = 0; i < num; i++)
+    // {
+    //     scanf("%d", &pointerOne[i]);
+    // }
+    //  for(int i=0; i<num; i++){
+    //     printf("%d\n", pointerOne[i]);
+    // }
+
+
+    // printf("Enter + size you want add more: ");
+    // scanf("%d", &newSize);
+    // pointerOne = (int *)realloc(pointerOne, newSize*sizeof(int));
+    //   for (int i = 0; i < newSize; i++)
+    // {
+    //     scanf("%d", &pointerOne[i]);
+    // }
+    // for(int i=0; i<newSize; i++){
+    //     printf("%d\n", pointerOne[i]);
+    // }
+    // free(pointerOne);
 }
