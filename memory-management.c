@@ -192,10 +192,10 @@ int main()
     //   // deallocating the memory
     //   free(ptr);
     //     return 0;
-    int num, newSize;
-    int *pointerOne;
-    printf("Please enter number you want add: ");
-    scanf("%d", &num);
+    // int num, newSize;
+    // int *pointerOne;
+    // printf("Please enter number you want add: ");
+    // scanf("%d", &num);
     // ===malloc===
     // pointerOne = (int *)malloc(num * sizeof(int));
     // printf("Please enter element: ");
@@ -230,7 +230,6 @@ int main()
     //     printf("%d\n", pointerOne[i]);
     // }
 
-
     // printf("Enter + size you want add more: ");
     // scanf("%d", &newSize);
     // pointerOne = (int *)realloc(pointerOne, newSize*sizeof(int));
@@ -242,4 +241,29 @@ int main()
     //     printf("%d\n", pointerOne[i]);
     // }
     // free(pointerOne);
+
+    // ==============memory management again learning DAY-5 ===========
+    // int size;
+    // int *arrayOne;
+    // printf("Please enter array of size: ");
+    // scanf("%d", &size);
+    // arrayOne = calloc(size, sizeof(int));
+    // if (arrayOne == NULL)
+    // {
+    //     printf("Errors\n");
+    // }
+    // printf("Please enter the number: ");
+    // for (int i = 0; i < size; i++)
+    // {
+    //     scanf("%d", &arrayOne[i]);
+    // }
+    // // system("cls");
+    // printf("\n\n\n");
+    // for (int j = size; j>0; j--)
+    // {
+    //     printf("%d\n", arrayOne[j]);
+    // }
+
+
+    return 0;
 }
