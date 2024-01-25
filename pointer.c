@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+// void update(int *a, int *b)
+// {
+//     // Complete this function
+//     *a += *b;
+//     *b -= *a - *b;
+// }
 int main()
 {
     // int numOne = 100;
@@ -116,6 +122,26 @@ int main()
     // {
     //     printf("%d\n", *arrayPointers[i]);
     // }
+
+    // =================PRACTICE DAY-3==============
+    // int numOne, numTwo;
+    // int *pointerOne = &numOne, *pointerTwo = &numTwo;
+
+    // printf("Please enter 2 integer: ");
+    // scanf("%d %d", &numOne, &numTwo);
+
+    // update(pointerOne, pointerTwo);
+
+    // printf("NumOne = %d\n numTwo = %d", numOne, numTwo);
+
+    // 1. Declare a pointer variable and assign a value to it. Print both the variable and its address.
+    // int numOne = 10, numTwo = 20;
+    // int *pointOne = &numOne;
+    // int *pointTwo = &numTwo;
+    // printf("PointOne = %d\nPointTwo = %d\n", *pointOne, *pointTwo);
+    // printf("PointOne Add = %d\nPointTwo Add = %d\n", pointOne, pointTwo);
+    // 2. Swap two variables using pointers.
+    // 3. Write a program to find the length of a string using pointers.
 
     return 0;
 }
