@@ -95,5 +95,38 @@ int main()
     // endTime = clock(); //end time
     // int totalTime = (endTime - startTime) / CLOCKS_PER_SEC; //calculate time
     // printf("Total time taken by Program = %d\n", totalTime);
+
+    // time()
+
+    // time_t currentTime;
+    // currentTime = time(NULL);
+    // printf("Current time = %lld\n", currentTime);
+
+    // time_t currentTime;
+    // struct tm *localTimePointer;
+    // currentTime = time(NULL);
+    // localTimePointer = localtime(&currentTime);
+    // printf("Local time = %s\n", asctime(localTimePointer));
+
+    // ctime()
+    // time_t currentTime;
+    // char *timeString;
+    // currentTime = time(NULL);
+    // timeString = ctime(&currentTime);
+    // printf("Current time = %s\n", timeString);
+
+    // strftime()
+    time_t currentTime;
+    char strTime[100];
+    struct tm *timePointer;
+    currentTime = time(NULL);
+
+    timePointer = localtime(&currentTime);
+    if(strftime(strTime, sizeof(strTime), "%y/%m/%d (%H: %M: %S)",timePointer)==0){
+        printf("Failed to format the time\n");
+        return 1;
+    }
+
+    printf("Formatted time = %s\n", strTime);
     return 0;
 }
