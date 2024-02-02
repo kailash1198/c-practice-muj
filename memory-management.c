@@ -264,6 +264,46 @@ int main()
     //     printf("%d\n", arrayOne[j]);
     // }
 
+    // ==============memory management again learning DAY-6 ===========
+    // Allocate memory for an integer using malloc and then free it using free.
 
+    // int *pointerOne;
+    // pointerOne = (int *)malloc(2 * sizeof(int));
+    // if (pointerOne == NULL)
+    // {
+    //     printf("Memory not allocated\n");
+    // }
+    // *pointerOne = 100;
+    // printf("The pointerone is = %d\n", *pointerOne);
+    // free(pointerOne);
+
+    // Create an array of integers dynamically and calculate the sum.
+    // int *ptr;
+    // int sum = 0;
+    // ptr = (int *)calloc(5, sizeof(int));
+    // if (ptr == NULL)
+    // {
+    //     printf("Memory not allocated\n");
+    // }
+    // printf("Enter the input: ");
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     scanf("%d\n", &ptr[i]);
+    //     sum += ptr[i];
+    // }
+    // for (int j = 0; j < 5; j++)
+    // {
+    //     printf("The values is %d = %d\n", j, ptr[j]);
+    //     printf("The sum = %d\n", sum);
+    // }
+
+    // free(ptr);
+
+    // Implement a simple memory allocator that allocates and deallocates memory blocks.
+    // int *ptr;
+    // ptr = (int *)malloc(1 * sizeof(int));
+    // *ptr = 300;
+    // printf("The allocated memory value is = %d\n", *ptr);
+    // free(ptr);
     return 0;
 }
