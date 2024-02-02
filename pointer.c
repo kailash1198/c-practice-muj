@@ -8,6 +8,18 @@
 //     *a += *b;
 //     *b -= *a - *b;
 // }
+
+void jointStr(char *str1, char *str2)
+{
+    str1 = (char *)malloc(20 * sizeof(char));
+    str2 = (char *)malloc(20 * sizeof(char));
+    printf("Enter first Name: ");
+    scanf("%s", str1);
+    // char fullName[20];
+    // strcpy(fullName, str2);
+    // strcat(fullName, str1);
+    // return fullName[20];
+}
 int main()
 {
     // int numOne = 100;
@@ -143,5 +155,14 @@ int main()
     // 2. Swap two variables using pointers.
     // 3. Write a program to find the length of a string using pointers.
 
+    // Write a program to implement a simple memory allocator.
+    // int *ptr;
+    // ptr = (int *)malloc(1 * sizeof(int));
+    // *ptr = 500;
+    // printf("The ptr is = %d\n", *ptr);
+    // free(ptr);
+
+    // Implement a function to concatenate two strings dynamically.
+    jointStr();
     return 0;
 }
