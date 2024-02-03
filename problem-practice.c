@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 // void swap(int *a, int *b){
@@ -31,6 +32,25 @@
 //     }
 // }
 
+// char *concatenateStrings(const char *str1, const char *str2)
+// {
+//     size_t len1 = strlen(str1);
+//     size_t len2 = strlen(str2);
+
+//     char *result = (char *)malloc((len1 + len2 + 1) * sizeof(char));
+
+//     if (result == NULL)
+//     {
+//         printf("Memory not allocated\n");
+//     }
+
+//     strcpy(result, str1);
+//     strcat(result, str2);
+
+//     return result;
+// }
+
+
 int main()
 {
     // Swap two variables using pointers.
@@ -48,7 +68,18 @@ int main()
     // Implement a function to reverse a string using pointers.
     // char userName[]= "Kailash";
     // reverseStr(userName);
-    // printf("%s\n", userName); 
+    // printf("%s\n", userName);
+
+    // Implement a function to concatenate two strings dynamically.
+    // const char *firstName = "Kailash";
+    // const char *lastName = "Kumar";
+    // char *fullName = concatenateStrings(firstName, lastName);
+
+    // printf("Full Name = %s\n", fullName);
+    // free(fullName);
+
+    // Write a function to find the largest element in an array using pointers.
+    // int myArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     return 0;
 }
