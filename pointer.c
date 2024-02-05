@@ -9,17 +9,17 @@
 //     *b -= *a - *b;
 // }
 
-void jointStr(char *str1, char *str2)
-{
-    str1 = (char *)malloc(20 * sizeof(char));
-    str2 = (char *)malloc(20 * sizeof(char));
-    printf("Enter first Name: ");
-    scanf("%s", str1);
-    // char fullName[20];
-    // strcpy(fullName, str2);
-    // strcat(fullName, str1);
-    // return fullName[20];
-}
+// void jointStr(char *str1, char *str2)
+// {
+// str1 = (char *)malloc(20 * sizeof(char));
+// str2 = (char *)malloc(20 * sizeof(char));
+// printf("Enter first Name: ");
+// scanf("%s", str1);
+// char fullName[20];
+// strcpy(fullName, str2);
+// strcat(fullName, str1);
+// return fullName[20];
+// }
 int main()
 {
     // int numOne = 100;
@@ -163,6 +163,22 @@ int main()
     // free(ptr);
 
     // Implement a function to concatenate two strings dynamically.
-    jointStr();
+    // jointStr();
+
+    // ======= Pointer of Arrays ========
+
+    // printf("Array pointer [0] = %ld\n", *arrayPointer[0]);
+
+    // printf("Array pointer[0]\n", arrayPointer);
+    // printf("Array pointer[1]\n", arrayPointer);
+
+
+    int *ptr[2];
+    for(int i=0; i<2; i++){
+        scanf("%ld\n", &ptr[i]);
+    }
+    for(int j=0; j<2; j++){
+        printf("The number is = %ld\n", *ptr[j]);
+    }
     return 0;
 }
