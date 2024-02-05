@@ -50,9 +50,25 @@
 //     return result;
 // }
 
+int findLargestElement(int *ptrArray, int size)
+{
+    int largeNum = *ptrArray;
+    for (int i = 0; i < size; i++)
+    {
+        if (ptrArray[i] > largeNum)
+        {
+            largeNum = ptrArray[i];
+        }
+    }   
+    return largeNum;
+}
 
 int main()
 {
+
+    int array[] = {8, 10, 20, 50, 100, 90};
+    int bigNum = findLargestElement(array, 6);
+    printf("Big num is = %d\n", bigNum);
     // Swap two variables using pointers.
     // int numOne=10, numTwo=20;
 
@@ -79,7 +95,7 @@ int main()
     // free(fullName);
 
     // Write a function to find the largest element in an array using pointers.
-    // int myArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int myArray[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     return 0;
 }
