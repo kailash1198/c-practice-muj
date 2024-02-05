@@ -2,6 +2,25 @@
 #include <stdlib.h>
 #include <string.h>
 
+// ====== pointer passing in function parameter ======
+// int myFunc(int *numOneArray, int size)
+// {
+//     int sum = 0;
+//     for (int i = 0; i < size; i++)
+//     {
+//         sum += numOneArray[i];
+//     }
+//     return sum;
+// }
+
+// void printArray(int *ptr, int size)
+// {
+//     for (int i = 0; i < size; i++)
+//     {
+//         printf("%d\n", ptr[i]);
+//     }
+// }
+
 // void update(int *a, int *b)
 // {
 //     // Complete this function
@@ -172,13 +191,56 @@ int main()
     // printf("Array pointer[0]\n", arrayPointer);
     // printf("Array pointer[1]\n", arrayPointer);
 
+    // int *ptr[2];
+    // for(int i=0; i<2; i++){
+    //     scanf("%ld\n", &ptr[i]);
+    // }
+    // for(int j=0; j<2; j++){
+    //     printf("The number is = %ld\n", *ptr[j]);
+    // }
 
-    int *ptr[2];
-    for(int i=0; i<2; i++){
-        scanf("%ld\n", &ptr[i]);
-    }
-    for(int j=0; j<2; j++){
-        printf("The number is = %ld\n", *ptr[j]);
-    }
+    // int numOne=10,numTwo=20;
+    // int *ptrArray[2];
+    // ptrArray[0] = &numOne;
+    // ptrArray[1] = &numTwo;
+
+    // printf("ptrArray[0] = %d\n", *ptrArray[0]);
+    // printf("ptrArray[1] = %d\n", *ptrArray[1]);
+
+    // int myArray[] = {100, 20, 303, 4423, 564};
+    // int *ptr;
+    // ptr = myArray;
+
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("%d\n", ptr[i]);
+    // }
+    // int myArray[] = {100, 245, 32,434, 5323};
+    // printArray(myArray, 5);
+
+    // ====== pointer passing in function parameter ======
+    // int myArray[] = {16660, 270, 380, 40, 500};
+    // printf("Sum of the array element = %d\n",  myFunc(myArray, 5));
+
+    // =========== pointers of structure =========
+    
+    // struct pointerStruct
+    // {
+    //     char *userName;
+    //     char *firstName;
+    //     int classCode;
+    //     int rollNum;
+    //     int marks;
+    //     int results;
+    // };
+
+    // struct pointerStruct stuctVarOne;
+    // char myName[20] = "Kailash Kumar";
+    // stuctVarOne.userName = myName;
+    // printf("Username = %s\n\n",stuctVarOne.userName);
+
+    // stuctVarOne.firstName = "Aryan singh";
+    // printf("first name without pointer var = %s\n",stuctVarOne.firstName);
+
     return 0;
 }
